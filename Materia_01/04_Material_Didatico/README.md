@@ -2,6 +2,10 @@
 
 Este índice reúne os conteúdos da unidade curricular e aponta para os materiais originais no AVA SENAI. Os links podem exigir autenticação na plataforma.
 
+## Aula indicada
+
+- [Exemplo 2 — Estruturas de Seleção](https://sc.ead.senai.br/mod/resource/view.php?id=1289496&forceview=1)
+
 ## Tópico 1 — Conceitos Básicos
 
 - [1.1 — Introdução ao Python](https://sc.ead.senai.br/mod/resource/view.php?id=1280909)
