@@ -5,6 +5,7 @@ Materiais organizados por finalidade:
 - `01_Problemas_Propostos/`: enunciados em PDF dos quatro problemas da Semana 1.
 - `02_Exercicios_de_Apoio/`: notebooks dos exemplos síncronos sobre estruturas de seleção e laços.
 - `03_Avaliacoes/`: fichas com abrangência, regras e links dos dois questionários avaliativos.
+- `04_Material_Didatico/`: índice dos conteúdos e links dos materiais dos Tópicos 1 a 4 no AVA.
 
 ## Problemas propostos — Semana 1
 
@@ -19,3 +20,7 @@ Materiais organizados por finalidade:
 - [Questionário 2 — Tópicos 3 e 4](03_Avaliacoes/Questionario_2.md)
 
 As avaliações são questionários interativos do AVA SENAI; as questões devem ser respondidas na plataforma.
+
+## Material didático
+
+- [Conteúdos e materiais dos Tópicos 1 a 4](04_Material_Didatico/README.md)
