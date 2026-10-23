@@ -1,0 +1,110 @@
+id,type,description
+NUMERODN,bigint,"Número da DN, sequencial por UF informante e por ano"
+CODESTAB,text,Código de estabelecimento
+CODMUNNASC,bigint,"Município de ocorrência, em codificação idêntica a de
+CODMUNRES, conforme tabela TABMUN"
+LOCNASC,bigint,"Local de ocorrência do nascimento, conforme a tabela:
+9: Ignorado
+1: Hospital
+2: Outro Estab Saúde
+3: Domicílio
+4: Outros"
+IDADEMAE,bigint,Idade da mãe em anos
+ESTCIVMAE,bigint,"Estado civil, conforme a tabela:
+1: Solteira
+2: Casada
+3: Viuva
+4: Separado judicialmente/Divorciado
+5: União consensual (versões anteriores)
+9: Ignorado"
+ESCMAE,bigint,"Escolaridade, anos de estudo concluídos:
+1: Nenhuma
+2: 1 a 3 anos
+3: 4 a 7 anos
+4: 8 a 11 anos
+5: 12 e mais
+9: Ignorado"
+CODOCUPMAE,text,"Ocupação, conforme a Classificação Brasileira de Ocupações (CBO-2002)"
+QTDFILVIVO,text,Número de filhos vivos
+QTDFILMORT,text,Número de filhos mortos
+CODMUNRES,bigint,"Município de residência da mãe, em codificação idêntica a de
+CODMUNNASC, conforme tabela TABMUN"
+GESTACAO,bigint,"Semanas de gestação, conforme a tabela:
+9: Ignorado
+1: Menos de 22 semanas
+2: 22 a 27 semanas
+3: 28 a 31 semanas
+4: 32 a 36 semanas
+5: 37 a 41 semanas
+6: 42 semanas e mais"
+GRAVIDEZ,bigint,"Tipo de gravidez, conforme a tabela:
+9: Ignorado
+1: Única
+2: Dupla
+3: Tripla e mais"
+PARTO,bigint,"Tipo de parto, conforme a tabela:
+9: Ignorado
+1: Vaginal
+2: Cesáreo"
+CONSULTAS,bigint,"Número de consultas de pré-natal:
+1: Nenhuma
+2: de 1 a 3
+3: de 4 a 6
+4: 7 e mais
+9: Ignorado"
+DTNASC,text,"Data do nascimento, no formato ddmmaaaa"
+HORANASC,text,Horário de nascimento
+SEXO,bigint,"Sexo, conforme a tabela:
+0: Ignorado, não informado
+1: Masculino
+2: Feminino"
+APGAR1,text,"Apgar no primeiro minuto
+00 a 10"
+APGAR5,text,"Apgar no quinto minuto
+00 a 10"
+RACACOR,bigint,"Raça/Cor:
+1:Branca
+2:Preta
+3:Amarela
+4: Parda
+5: Indígena"
+PESO,text,"Peso ao nascer, em gramas"
+IDANOMAL,bigint,"Anomalia congênita:
+9:Ignorado
+1:Sim
+2:Não"
+DTCADASTRO,text,Data do cadastro da DN no sistema
+CODANOMAL,text,"Código de malformação congênita ou anomalia cromossômica, de acordo com a CID-10"
+NATURALMAE,bigint,"Se a mãe for estrangeira, constará o código do país de nascimento."
+CODMUNNATU,bigint,Código do município de naturalidade da mãe
+CODUFNATU,bigint,Código da UF de naturalidade da mãe
+ESCMAE2010,bigint,"Escolaridade 2010. Valores: 0 – Sem escolaridade; 1 –
+Fundamental I (1a a 4a série); 2 – Fundamental II (5a a 8a série);
+3 – Médio (antigo 2o Grau); 4 – Superior incompleto; 5 –
+Superior completo; 9 – Ignorado."
+SERIESCMAE,bigint,Série escolar da mãe. Valores de 1 a 8.
+DTNASCMAE,text,Data de nascimento da mãe
+RACACORMAE,bigint,Raça/cor da mãe
+QTDGESTANT,text,Número de gestações anteriores
+QTDPARTNOR,text,Número de partos vaginais
+QTDPARTCES,text,Número de partos cesáreos
+IDADEPAI,bigint,Idade do pai
+DTULTMENST,text,Data da última menstruação (DUM): dd mm aaaa
+SEMAGESTAC,bigint,Número de semanas de gestação.
+TPMETESTIM,bigint,Método utilizado. Valores: 1– Exame físico; 2– Outro método; 9– Ignorado.
+CONSPRENAT,text,Número de consultas pré-natal
+MESPRENAT,text,Mês de gestação em que iniciou o pré-natal
+TPAPRESENT,bigint,Tipo de apresentação do RN. Valores: 1– Cefálico; 2– Pélvica ou podálica; 3– Transversa; 9– Ignorado.
+STTRABPART,bigint,Trabalho de parto induzido? Valores: 1– Sim; 2– Não; 3– Não se aplica; 9– Ignorado.
+STCESPARTO,bigint,Cesárea ocorreu antes do trabalho de parto iniciar? Valores: 1–Sim; 2– Não; 3– Não se aplica; 9– Ignorado.
+TPNASCASSI,bigint,Nascimento foi assistido por? Valores: 1– Médico; 2–Enfermeira/obstetriz; 3– Parteira; 4– Outros; 9– Ignorado.
+ESCMAEAGR1,text,"Escolaridade 2010 agregada. Valores: 00 – Sem Escolaridade;
+01 – Fundamental I Incompleto; 02 – Fundamental I Completo;
+03 – Fundamental II Incompleto; 04 – Fundamental II
+Completo; 05 – Ensino Médio Incompleto; 06 – Ensino Médio
+Completo; 07 – Superior Incompleto; 08 – Superior Completo;
+09 – Ignorado; 10 – Fundamental I Incompleto ou Inespecífico;
+11 – Fundamental II Incompleto ou Inespecífico; 12 – Ensino
+Médio Incompleto ou Inespecífico."
+CODPAISRES,bigint,Código do país de residência
+TPROBSON,text,"Código do Grupo de Robson, gerado pelo sistema"
