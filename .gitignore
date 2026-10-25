@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Ambientes virtuais Python
+.venv/
+venv/
+env/
+.venv_*/
+
+# Cache e arquivos compilados Python
+__pycache__/
+*.py[cod]
