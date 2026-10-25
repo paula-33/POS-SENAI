@@ -73,6 +73,10 @@ Os questionários são interativos e devem ser respondidos no AVA SENAI.
 
 - [Conteúdos e materiais dos Tópicos 1 a 4](04_Material_Didatico/README.md)
 
+### Versões preservadas do GitHub
+
+Os notebooks com o sufixo `_versao-main-github` preservam versões que estavam no `main` do GitHub antes da organização. Os arquivos sem esse sufixo são as versões locais; ambos foram mantidos porque tinham conteúdos diferentes.
+
 ## Links de referência
 
 - [Pós-Graduação em Ciência de Dados e Inteligência Artificial — Espaço do Estudante](https://sc.ead.senai.br/local/turma/view.php?turmaid=128011)

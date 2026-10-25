@@ -19,14 +19,21 @@
 
 A grade e as datas foram transcritas do Espaço do Estudante; consulte o sistema para eventuais atualizações.
 
+## Estatística Aplicada à Análise de Dados — 40h
+
+- [Planejamento do estudo sobre doença renal crônica no SUS](estatistica-aplicada-a-analise-de-dados-40h/Trabalho-final/planejamento_estudo_doenca_renal_cronica_sus.md)
+- [Mapeamento dos dados de hemodiálise do SIA/SUS](estatistica-aplicada-a-analise-de-dados-40h/Trabalho-final/mapeamento_hemodialise_sia_sus.md)
+- [Dados de hemodiálise por UF e mês](estatistica-aplicada-a-analise-de-dados-40h/Trabalho-final/Dados/hemodialise_sia_sus_uf_mes_2024_2025.csv)
+- [Dados do SINASC](estatistica-aplicada-a-analise-de-dados-40h/DADOS_SINASC%20-%20DADOS_SINASC.csv) e [dicionário de dados](estatistica-aplicada-a-analise-de-dados-40h/DICIO_SINASC%20-%20DICIO_SINASC.csv)
+
 ## Programação em Python para Ciência de Dados — 525585
 
 Materiais organizados por finalidade:
 
-- `01_Problemas_Propostos/`: enunciados em PDF dos quatro problemas da Semana 1.
-- `02_Exercicios_de_Apoio/`: notebooks dos exemplos síncronos sobre estruturas de seleção e laços.
-- `03_Avaliacoes/`: fichas com abrangência, regras e links dos dois questionários avaliativos.
-- `04_Material_Didatico/`: índice dos conteúdos e links dos materiais dos Tópicos 1 a 4 no AVA.
+- `programacao-python-para-ciencia-de-dados-30h/01_Problemas_Propostos/`: enunciados em PDF dos problemas.
+- `programacao-python-para-ciencia-de-dados-30h/02_Exercicios_de_Apoio/`: notebooks dos exemplos síncronos sobre estruturas de seleção e laços.
+- `programacao-python-para-ciencia-de-dados-30h/03_Avaliacoes/`: fichas com abrangência, regras e links dos questionários.
+- `programacao-python-para-ciencia-de-dados-30h/04_Material_Didatico/`: índice dos conteúdos e links dos materiais dos Tópicos 1 a 4 no AVA.
 
 ### Cronograma da unidade curricular
 
@@ -64,14 +71,14 @@ A agenda prevê 30 horas e quatro encontros síncronos, das 19h às 22h:
 
 ### Avaliações
 
-- [Questionário 1 — Tópicos 1 e 2](03_Avaliacoes/Questionario_1.md)
-- [Questionário 2 — Tópicos 3 e 4](03_Avaliacoes/Questionario_2.md)
+- [Questionário 1 — Tópicos 1 e 2](programacao-python-para-ciencia-de-dados-30h/03_Avaliacoes/Questionario_1.md)
+- [Questionário 2 — Tópicos 3 e 4](programacao-python-para-ciencia-de-dados-30h/03_Avaliacoes/Questionario_2.md)
 
 Os questionários são interativos e devem ser respondidos no AVA SENAI.
 
 ### Material didático
 
-- [Conteúdos e materiais dos Tópicos 1 a 4](04_Material_Didatico/README.md)
+- [Conteúdos e materiais dos Tópicos 1 a 4](programacao-python-para-ciencia-de-dados-30h/04_Material_Didatico/README.md)
 
 ## Links de referência
 

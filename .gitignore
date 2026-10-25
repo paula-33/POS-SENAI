@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Ambientes virtuais Python
+.venv/
+venv/
+env/
+.venv_*/
+
+# Cache e arquivos compilados Python
+__pycache__/
+*.py[cod]
+
+# Dados locais de trabalhos
+estatistica-aplicada-a-analise-de-dados-40h/Trabalho-final/referencias_bibliograficas_doenca_renal_cronica_sus.md
