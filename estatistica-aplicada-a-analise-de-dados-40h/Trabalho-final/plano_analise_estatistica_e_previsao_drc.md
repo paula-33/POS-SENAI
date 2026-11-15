@@ -12,6 +12,8 @@ O problema é identificar padrões temporais e territoriais desses registros sem
 
 Quantificar a magnitude e a distribuição territorial das mudanças nos registros SIA e SIH entre 2024 e 2025, descrever a produção SIA por população anual, explorar a concordância entre mudanças estaduais e comparar retrospectivamente modelos simples de previsão SIA. As respostas principais serão medidas observadas; testes e intervalos entram como apoio exploratório condicionado aos seus modelos de referência.
 
+**Ampliação da proposta — aprofundamento analítico executado:** explorar os dados para identificar e caracterizar padrões territoriais e temporais, conectando as observações às metodologias estatísticas aplicadas. A proposta já foi incorporada à introdução e aos objetivos do notebook; sua exploração e síntese sistemáticas foram desenvolvidas conforme a seção 12.3.
+
 ### Objetivos específicos
 
 1. Verificar qualidade, cobertura e ausência de dados do painel UF-mês.
@@ -69,13 +71,19 @@ O método preserva o padrão de dezembro da própria UF e usa a janela janeiro�
 
 **Gráficos:** série mensal Brasil, barras de variação por UF, dispersão SIA × SIH, barras da taxa anual regional SIA e boxplot regional da variação percentual SIA.
 
-### 6.3 Aplicação de probabilidade
+### 6.3 Estudo de probabilidades
 
-Estimar a probabilidade empírica de uma UF apresentar aumento de janeiro–outubro de 2025 em relação ao mesmo período de 2024:
+O experimento consiste em escolher uma das 27 UFs com probabilidades iguais e comparar janeiro–outubro de 2025 com o mesmo período de 2024. A seção 7 do notebook define o espaço amostral, os eventos A (aumento SIA) e B (aumento SIH) e apresenta cinco subseções, cada uma com pergunta, fórmula, cálculo executável, resultado exibido e interpretação em Markdown:
 
-`P(aumento) = número de UFs com variação positiva / 27`.
+1. Aumento SIA: P(A) = 25/27 = 92,59%.
+2. Aumento SIH: P(B) = 17/27 = 62,96%.
+3. Aumento simultâneo: P(A ∩ B) = 15/27 = 55,56%.
+4. Pelo menos um aumento: P(A ∪ B) = 27/27 = 100%; conferir pela inclusão–exclusão.
+5. Dupla redução: 0/27 = 0%; redução exige variações estritamente negativas, não incluindo empates.
 
-Apresentar intervalo de confiança exato de 95% para essa proporção, separadamente para SIA e SIH. A interpretação é territorial e descritiva; as 27 UFs não representam uma amostra aleatória de indivíduos.
+A interseção é contada diretamente, sem pressupor independência. Os eventos se sobrepõem e suas probabilidades não devem ser somadas como uma partição. O quadro-resumo é exportado em `probabilidades_basicas.csv`.
+
+Os intervalos binomiais exatos de 95% para as duas probabilidades marginais são mantidos em uma subseção complementar. As proporções descrevem o conjunto observado de UFs; os intervalos dependem do modelo de referência e não representam erro amostral de um censo territorial. Probabilidades de 0% e 100% descrevem esta comparação e não são garantias sobre outros períodos ou sobre pessoas.
 
 ### 6.4 Inferência estatística
 
@@ -200,11 +208,28 @@ A tendência linear é a referência selecionada para o cenário ilustrativo SIA
 - [x] Consolidar a versão final do relatório acadêmico, incorporando os resultados do notebook 09, métodos, referências e limitações; conferir coerência com a síntese territorial existente, inclusive as famílias de testes distintas.
 - [x] Conferir a entrega final após a revisão editorial: executar o notebook no kernel Jupyter, salvar as saídas e registrar versões das dependências e identificação da base usada.
 
-Fechamento realizado sem reabrir a auditoria APAC/N18. O [relatório final](relatorio_final_analise_estatistica_drc_2024_2025.md) consolida métodos, resultados, seis figuras, conclusão e referências. O notebook foi executado em kernel Jupyter com 11 células de código sequenciais, sem erros; nove CSVs, seis PNGs, HTML e identificação SHA-256/ambiente estão nos [artefatos finais](Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/LEIA-ME.md). Consulte o registro para o alcance da revisão das tabelas e figuras.
+Fechamento realizado sem reabrir a auditoria APAC/N18. O [relatório final](relatorio_final_analise_estatistica_drc_2024_2025.md) consolida métodos, resultados, seis figuras, conclusão e referências. O notebook foi executado em kernel Jupyter com 19 células de código sequenciais, sem erros; 17 CSVs, seis PNGs, HTML e identificação SHA-256/ambiente estão nos [artefatos finais](Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/LEIA-ME.md). Consulte o registro para o alcance da revisão das tabelas e figuras.
 
 ### 12.2 Pesquisas futuras — fora dos critérios de conclusão
 
 Uma futura atualização SIH poderá investigar as revisões de novembro/dezembro; uma série SIA mais longa poderá permitir nova avaliação preditiva; documentação técnica adicional poderá reabrir APAC e N18. Nenhuma dessas possibilidades integra o trabalho necessário à conclusão desta versão. A solicitação ao DATASUS permanece como minuta histórica, sem envio nesta adaptação.
+
+### 12.3 Concluído — aprofundamento da exploração e identificação de padrões
+
+**Proposta:** além de transformar registros administrativos em respostas estatísticas, explorar o painel disponível para identificar tendências, oscilações mensais, contrastes territoriais e possíveis associações, aplicando metodologias estatísticas e interpretando suas evidências.
+
+**Situação:** seção 6.4 do notebook 09 implementada com novas tabelas descritivas e síntese interpretativa na discussão. Perguntas, unidade, método e limites foram explicitados antes dos cálculos. A seção 4.6 do relatório incorpora a síntese. Sete CSVs adicionais permitem conferir as evidências; nenhuma fonte original ou família de testes foi alterada.
+
+- [x] Revisar as perguntas exploratórias e relacionar cada uma aos dados, à unidade de análise e ao método já aplicado ou necessário; justificar previamente qualquer análise adicional.
+- [x] Explorar tendências e oscilações mensais da série SIA e da janela SIH utilizável, distinguindo padrões observados de possíveis efeitos de cobertura e atualização administrativa.
+- [x] Examinar contrastes entre UFs e regiões, concentrações de volume e valores extremos, considerando conjuntamente magnitudes absolutas, relativas e produção SIA por população anual.
+- [x] Aprofundar a interpretação das mudanças conjuntas e divergentes entre SIA e SIH, articulando probabilidades, dispersão e correlação, sem pressupor independência ou causalidade.
+- [x] Consolidar uma síntese dos padrões: pergunta, evidência numérica/gráfica, metodologia, interpretação e limitação; registrar também perguntas para as quais a evidência foi insuficiente.
+- [x] Incorporar essa síntese à discussão e à conclusão do notebook e do relatório; se houver novos cálculos, executar as células afetadas, atualizar os artefatos e documentar a validação.
+
+**Critério de conclusão:** cada padrão relatado deve estar apoiado em tabela, gráfico ou cálculo reproduzível, com unidade/período explícitos e interpretação proporcional à evidência. As observações exploratórias podem gerar hipóteses; não constituem confirmação independente. A série de 24 meses não permite presumir sazonalidade estável. Não ampliar a família de testes apenas para procurar significância.
+
+A etapa utiliza os dados locais e não depende de novas fontes, de APAC ou da equivalência operacional N18/TabNet.
 
 ## 13. O que a estatística entrega com os dados disponíveis
 
@@ -232,7 +257,7 @@ Não serão acrescentados testes apenas para procurar significância. Nenhuma im
 
 ### 13.3 Critério de estudo concluído
 
-O estudo estará concluído quando o relatório responder às perguntas da seção 13.1 com as tabelas e figuras existentes, explicar as limitações da seção 13.2 e permitir reproduzir os resultados com o painel local identificado. A revisão visual/editorial, o relatório e a execução final documentada da seção 12.1 foram concluídos; a base e os resultados permanecem limitados ao corte disponível. A obtenção de insumos externos deixa de integrar o checklist de conclusão.
+O estudo estará concluído quando o relatório responder às perguntas da seção 13.1 com as tabelas e figuras existentes, explicar as limitações da seção 13.2 e permitir reproduzir os resultados com o painel local identificado. A revisão visual/editorial, o relatório e a execução final documentada da seção 12.1 foram concluídos; a base e os resultados permanecem limitados ao corte disponível. O aprofundamento exploratório e sua síntese da seção 12.3 também foram executados e incorporados à discussão e à conclusão. A obtenção de insumos externos deixa de integrar o checklist de conclusão.
 
 
 ## 14. Entrega final e evidências
@@ -242,4 +267,10 @@ O estudo estará concluído quando o relatório responder às perguntas da seç�
 - [Artefatos e reprodução](Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/LEIA-ME.md).
 - [Registro de fechamento, ambiente e revisão](Dados/04_documentacao_e_auditoria/REGISTRO_FECHAMENTO_ESTATISTICO_2026-11-15.md).
 
-O estudo está encerrado para o escopo descritivo/ecológico definido, sem pendência de obtenção de fontes externas. O conjunto de resultados não sustenta ampliação clínica ou operacional das conclusões.
+A entrega anterior foi concluída para o escopo descritivo/ecológico então definido. A ampliação da proposta foi desenvolvida na seção 12.3, com evidências reproduzíveis e síntese dos padrões, sem exigir novas fontes externas. O conjunto de resultados não sustenta ampliação clínica ou operacional das conclusões.
+
+### Evidências do aprofundamento da seção 12.3
+
+- [Síntese dos padrões, métodos e limites](Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/sintese_padroes_exploratorios.md).
+- Cálculos: seção 6.4 do notebook; discussão: seção 10 e seção 4.6 do relatório.
+- Validação: registro de fechamento, adendo do aprofundamento; as limitações externas continuam como pesquisas futuras.

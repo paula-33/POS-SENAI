@@ -108,6 +108,18 @@ O Nordeste apresentou a maior intensidade bruta de produção nos dois anos; o N
 | Sinais SIH | 17 aumentos e 10 reduções | 0,247789 | 0,427452 |
 | Spearman das variações | ρ = −0,247253 | 0,213726 | 0,427452 |
 
+O estudo didático de probabilidades da seção 7 do notebook também calcula os eventos conjuntos, com uma subseção para cada pergunta, fórmula, saída e interpretação em Markdown:
+
+| Evento na escolha uniforme de uma UF | Contagem | Probabilidade empírica |
+|---|---:|---:|
+| Aumento SIA | 25/27 | 92,59% |
+| Aumento SIH | 17/27 | 62,96% |
+| Aumento dos dois indicadores (interseção) | 15/27 | 55,56% |
+| Aumento de pelo menos um indicador (união inclusiva) | 27/27 | 100% |
+| Redução dos dois indicadores | 0/27 | 0% |
+
+A interseção é obtida pela contagem conjunta das mesmas UFs, sem hipótese de independência. A união confere a identidade P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Os eventos se sobrepõem e não formam cinco categorias exclusivas. Não houve empates neste painel; o código distingue empate de redução. Os valores extremos 0% e 100% são frequências deste período, sem demonstrar impossibilidade ou certeza em períodos futuros. A tabela está em `probabilidades_basicas.csv`.
+
 O predomínio direcional de aumento SIA é incompatível com a referência de 50% sob o modelo binomial utilizado. Para SIH não há evidência suficiente contra esse equilíbrio. A correlação negativa observada não permite concluir associação protetora, independência ou efeito da produção de hemodiálise sobre internações.
 
 ![Dispersão das variações estaduais SIA e SIH](Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/04_associacao_variacoes.png)
@@ -132,6 +144,27 @@ A tendência linear apresentou o menor MAPE entre os candidatos. A diferença en
 
 *Figura 6. Observado de janeiro de 2024 a dezembro de 2025 e extrapolação de tendência para 2026. Não há validação do horizonte anual ou intervalo preditivo. A ausência de faixa não significa certeza.*
 
+### 4.6 Aprofundamento dos padrões temporais e territoriais
+
+### Síntese dos padrões exploratórios — evidência, método e limites
+
+Todos os valores de mudança territorial e concentração abaixo usam **janeiro–outubro de 2025 versus 2024**. As taxas SIA usam **janeiro–dezembro** e população anual; SIA é quantidade aprovada e SIH é número de internações N17–N19. As tabelas `exploracao_*.csv` da entrega reproduzem os cálculos da seção 6.4.
+
+| Pergunta e padrão observado | Evidência numérica e apoio gráfico | Método e interpretação | Limitação |
+|---|---|---|---|
+| O nível mensal aumentou de modo uniforme? | SIA: 11/12 meses homólogos positivos; setembro +7,69%, novembro −0,51%. SIH: 9/10 positivos; agosto +8,56%, outubro −3,82%. Tabela `exploracao_mensal.csv`; série Brasil da seção 6.2. | Razão entre totais do mesmo mês; crescimento disseminado no calendário, com exceções. Não é crescimento monotônico mês a mês. | Revisões administrativas continuam possíveis; SIH nov/dez excluído. |
+| Há oscilação recorrente? | Fevereiro é o mínimo nos dois anos e indicadores. SIA: 1.436.017 em 2024 e 1.443.598 em 2025; SIH: 12.204 e 12.750 na janela jan–out. CV mensal SIA: 3,52% e 4,03%; SIH: 3,36% e 3,75%. | Extremos e desvio-padrão amostral/média × 100; amplitude SIA passa de 160.353 a 230.857 unidades. | Dois ciclos, número de dias e calendário de atendimento impedem afirmar sazonalidade estável. CV mistura tendência e oscilação; não estima volatilidade residual. |
+| Crescimento e intensidade populacional dão o mesmo ranking? | Norte: SIA +9,36%; Centro-Oeste +1,57%. Sudeste acrescenta 241.364 unidades (1,59 ponto percentual do crescimento nacional); Nordeste, 208.050 (1,37 pp). Taxa SIA anual 2025: Nordeste 10.060,9 e Norte 6.259,8 por 100 mil. | Razão das somas por região e contribuição = diferença regional/total Brasil 2024 × 100. Crescimento relativo maior pode coexistir com menor intensidade bruta por população. | Comparação de crescimento usa dez meses; taxa usa doze. Sem padronização etária, fluxos ou medida de necessidade assistencial. Kruskal–Wallis p=0,248 não demonstra igualdade. |
+| O volume está concentrado? | Cinco maiores UFs SIA: SP, MG, BA, RJ e PE; 54,97% em 2024 e 55,00% em 2025. SIH: 57,12% e 56,62%, com PR substituindo RS no grupo. SP acrescenta 112.885 unidades SIA e 1.428 internações. | Participação na soma nacional e ranking por volume, recalculado em cada ano; concentração SIA semelhante nos dois períodos. | Participação de produção no local de atendimento não mede concentração de pacientes residentes ou desigualdade de acesso. |
+| Os extremos percentuais dominam o aumento nacional? | Cercas IQR SIA: −4,34% a +11,61%; extremos AC +14,30%, PA +12,09%, TO +22,49%. TO: 69.798 → 85.498 (+15.700), contribuição 0,10 pp; SP: +3,39%, mas +112.885 e 0,74 pp. Taxa anual 2025: TO 6.441,6 versus SP 8.988,8 por 100 mil. | Cercas de 1,5 IQR sinalizam valores para leitura conjunta com base absoluta e taxa anual. Não há exclusão de UFs. | Extremo estatístico não é erro nem desempenho assistencial; denominadores menores amplificam percentuais. |
+| Há extremos SIH mesmo na janela escolhida? | Cercas SIH: −22,15% a +27,65%; AP 305 → 416 (+111; +36,39%); RR 500 → 352 (−148; −29,60%). | Mesmo critério IQR sobre as 27 variações; a heterogeneidade não se resume aos meses finais excluídos. | A janela selecionada não elimina possíveis diferenças de registro; não atribuir causas. |
+| Como as direções conjuntas se organizam? | 15 UFs aumentam ambos (55,56%); dez aumentam SIA e reduzem SIH (37,04%); duas reduzem SIA e aumentam SIH (7,41%: AM e DF); nenhuma reduz ambos ou empata. | Nove categorias exclusivas, incluindo empates, totalizam 27. Os 12 casos divergentes são 44,44%. A tabela articula as probabilidades marginais (25/27 e 17/27) e a interseção (15/27). | Categorias de sinais não descrevem a ordenação das magnitudes; Spearman ρ=−0,247 e p-Holm=0,427 continua sem evidência suficiente de associação monotônica. Não demonstra independência ou proteção. |
+
+**Perguntas sem resposta suficiente:** não é possível confirmar sazonalidade persistente, explicar a causa dos extremos, demonstrar igualdade regional, inferir efeito da hemodiálise sobre internações ou validar o cenário anual de 2026. A comparação preditiva de um mês à frente sustenta apenas o desempenho retrospectivo descrito na seção 9. Nenhum novo teste foi acrescentado.
+
+**Discussão e conclusão ampliadas:** o crescimento nacional combina disseminação territorial, concentração de volumes e ritmos regionais distintos. O avanço relativo do Norte coexiste com a menor produção anual SIA por população; os maiores percentuais estaduais não coincidem necessariamente com as maiores contribuições absolutas. A oscilação mensal e as 12 direções territoriais divergentes qualificam a leitura do crescimento agregado. Esses padrões descrevem a extração observada e geram hipóteses, sem confirmar mecanismos clínicos, acesso ou causalidade.
+
+
 ## 5. Discussão e limites
 
 O crescimento nacional SIA ocorreu com aumento em quase todas as UFs, enquanto o SIH apresentou maior heterogeneidade direcional. Assim, crescimento total e disseminação territorial respondem a perguntas diferentes e devem ser apresentados juntos. Os contrastes populacionais brutos contextualizam os volumes, mas não permitem julgar a suficiência da oferta ou a qualidade do cuidado.
@@ -144,13 +177,15 @@ Os limites incluem qualidade e revisões dos registros administrativos, uma aus�
 
 Com as fontes disponíveis, o estudo quantifica crescimento de produção SIA e internações N17–N19 em períodos comparáveis, descreve sua distribuição territorial e identifica a maior disseminação direcional do aumento SIA. Não encontrou evidência suficiente de associação monotônica entre mudanças estaduais ou de diferença regional da variação SIA. A tendência linear foi o melhor dos três candidatos na avaliação retrospectiva de um mês à frente, com alcance exploratório.
 
+A exploração adicional identificou crescimento homólogo SIA em 11/12 meses e SIH em 9/10 meses utilizáveis, concentração SIA próxima de 55% em cinco UFs e contraste entre o maior avanço relativo do Norte e sua menor intensidade anual por população. Extremos percentuais e contribuições absolutas apresentam ordens distintas; 12 UFs tiveram direções SIA/SIH divergentes. Esses padrões qualificam a conclusão agregada sem estabelecer mecanismos causais.
+
 A entrega estatística está restrita a esses resultados observáveis e aos limites explicitados. Não estima pacientes únicos, incidência/prevalência de DRC, necessidade não atendida, causalidade, sobrevida ou demanda operacional futura. Novas extrações e esclarecimentos técnicos são possibilidades para outro ciclo de pesquisa; a conclusão deste estudo não depende deles.
 
 ## 7. Reprodutibilidade e materiais da entrega
 
 - [Notebook 09 executado](Notebook/09_ANALISE_ESTATISTICA_E_PREVISAO_DRC.ipynb), com contadores sequenciais e saídas salvas.
 - [Versão HTML do notebook](Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/notebook_09_executado.html).
-- [Artefatos finais e instruções](Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/LEIA-ME.md): nove tabelas CSV, seis figuras PNG e registro do ambiente.
+- [Artefatos finais e instruções](Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/LEIA-ME.md): 17 tabelas CSV, seis figuras PNG e registro do ambiente.
 - [Registro de execução JSON](Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/registro_execucao.json): Python 3.12.13, versões dos pacotes, identificação da base e data de execução.
 - [Registro de fechamento e revisão visual](Dados/04_documentacao_e_auditoria/REGISTRO_FECHAMENTO_ESTATISTICO_2026-11-15.md).
 
