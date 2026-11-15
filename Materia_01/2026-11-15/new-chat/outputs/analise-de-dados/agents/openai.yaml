@@ -1,0 +1,6 @@
+interface:
+  display_name: "Análise de dados"
+  short_description: "Explore dados e apresente conclusões verificáveis"
+  default_prompt: "Use $analise-de-dados para analisar estes dados e responder à minha pergunta."
+policy:
+  allow_implicit_invocation: true
