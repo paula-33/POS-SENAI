@@ -1,10 +1,15 @@
 # Próximas etapas do estudo sobre doença renal crônica no SUS
 
+> **Decisão vigente — 15/11/2026:** os insumos externos não estão disponíveis. Concluir o estudo com SIA/SIH/IBGE locais, conforme as seções 12 e 13 do [plano estatístico](plano_analise_estatistica_e_previsao_drc.md). A janela comparativa é janeiro–outubro; APAC e N18 ficam excluídos; previsão SIA é avaliação retrospectiva com cenário ilustrativo. Os encaminhamentos DATASUS e clínicos descritos abaixo são histórico e possibilidades de pesquisa futura, sem bloquear a entrega. Restam revisão visual, consolidação do relatório e execução final documentada.
+
+
 ## Objetivo deste roteiro
 
 Organizar o trabalho restante em ordem de execução, explicitar dependências e indicar frentes que podem avançar em paralelo. **Escopo decidido em 05/11/2026:** manter o estudo descritivo/associativo, explorando padrões, frequências, correlações e testes de hipóteses ecológicos com SIA, SIH N17–N19 e IBGE. Não estimar eficácia/efetividade nem atribuir causalidade ao tratamento.
 
 O roteiro parte do estado registrado no [planejamento do estudo](planejamento_estudo_doenca_renal_cronica_sus.md) e nas notas de auditoria. A pergunta comparativa individual foi retirada do escopo vigente; o rascunho correspondente está suspenso.
+
+As limitações de dados e de método, seus efeitos no painel e os encaminhamentos externos estão consolidados em [Limitações e próximos passos — auditoria DRC](Dados/04_documentacao_e_auditoria/PENDENCIAS_EXTERNAS_E_METODOLOGICAS_2026-11-15.md). A minuta ao DATASUS e o checklist clínico são anexos operacionais desse registro.
 
 ## Andamento da execução (atualizado em 05/11/2026)
 
@@ -19,13 +24,13 @@ O roteiro parte do estado registrado no [planejamento do estudo](planejamento_es
 
 **Etapa 1 — Concluída nesta rodada.** Resultados SIA/IBGE e SIH N17–N19 revisados; síntese interpretativa registrada em `resultados_descritivos_territoriais_2024_2025.md` e incorporada à seção de resultados do notebook. As unidades permanecem separadas e N18 preliminar não foi incorporado.
 
-**Etapa 2 — Verificar qualidade e maturidade do SIH no fim de 2025.** A exploração mensal já detectou quedas em novembro (−19,22%; 25 de 27 UFs) e dezembro (−48,59%; 26 UFs, RR ausente). Esses meses foram excluídos dos testes mensais SIH; a causa ainda não é conhecida. Conferir data/corte da extração local, cobertura da tabela e eventual revisão da fonte antes de qualquer conclusão. Não baixar novamente os mesmos arquivos sem primeiro conferir o inventário e a integridade.
+**Etapa 2 — Aguardando insumo externo para SIH/N18.** A exploração mensal já detectou quedas em novembro (−19,22%; 25 de 27 UFs) e dezembro (−48,59%; 26 UFs, RR ausente). A verificação de 15/11/2026 não encontrou no repositório resposta do DATASUS nem nova extração TabNet datada; logo, não há versão nova a comparar. Esses meses seguem fora dos testes mensais SIH, RR/dezembro não é tratado como zero e N18 não entra nos totais.
 
-**Etapa 3 — Recuperar a trilha histórica SIH, se disponível.** Procurar fora do material atualmente organizado a rotina ou saída que produziu 368.905/368.917 e as 12 linhas de diferença. Se não for recuperada, manter a divergência formalmente como não localizável. O teste feito nesta rodada mostra que N18 `IDENT=1` está abaixo do N17–N19 TabNet nas células observadas; não se espera igualdade diagnóstica e ainda não foi comprovado o mesmo corte de processamento. N18 continua preliminar e excluído dos totais finais.
+**Etapa 3 — Viabilidade APAC encerrada negativamente com as fontes atuais.** Datas sem semântica confirmada, continuidade não reconstruível, identificador sem estabilidade demonstrada e desfecho sem completude validada impedem coorte e seguimento individual. A APAC fica restrita à auditoria. Uma especificação oficial futura poderá reabrir essa avaliação.
 
-**Etapa 4 — Manter auditorias fora do bloqueio analítico.** A dúvida sobre datas/continuidade APAC e a diferença histórica de 12 linhas SIH seguem documentadas. Podem avançar em paralelo, mas não bloqueiam as análises atuais de SIA e SIH N17–N19; APAC e N18 permanecem fora dos testes principais.
+**Etapa 4 — Decisão clínica não acionada.** O checklist não será levado a nefrologista e epidemiologista enquanto a etapa 3 estiver encerrada negativamente. Se a APAC se tornar tecnicamente viável, definir população, comparador, tempo zero, seguimento, desfecho, confundimento, vínculo e governança antes de formar coorte.
 
-**Etapa 5 — Consolidar resultados e limites.** A primeira rodada de frequências, correlações e testes está documentada no notebook e na síntese de resultados. Após esclarecer a maturidade do SIH no fim de 2025, decidir se os meses excluídos podem ser reintegrados ou se devem permanecer fora da comparação principal. Tratar resultados agregados como exploratórios; não afirmar causa nem efeito terapêutico.
+**Etapa 5 — Atualizar resultados e previsão.** Após nova extração SIH, decidir se novembro/dezembro retornam à inferência. Reavaliar a previsão SIA somente com série mais longa e dados atualizados; até então, tratá-la como cenário exploratório. Não afirmar causa nem efeito terapêutico.
 
 **Frentes que podem avançar em paralelo:** exploração mensal e correlações adicionais; auditoria da consistência/maturidade do SIH; esclarecimento APAC e busca da rotina histórica de N18. A análise principal usa SIA e SIH N17–N19 tratados, com N18 e APAC excluídos.
 

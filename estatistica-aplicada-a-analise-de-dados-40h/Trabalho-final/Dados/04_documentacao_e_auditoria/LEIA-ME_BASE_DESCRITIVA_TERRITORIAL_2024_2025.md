@@ -31,7 +31,7 @@ Diretório: `../03_bases_analiticas/descritiva_territorial_2024_2025/`.
 
 SIA mede quantidade aprovada de procedimentos, não pessoas únicas, cobertura ou sessões recebidas por paciente. SIH N17–N19 mede internações em categoria diagnóstica ampla; não identifica tratamento dialítico ambulatorial nem uma coorte de pacientes. As séries são agregadas e não podem ser vinculadas indivíduo a indivíduo. A população IBGE é anual, com referência em julho; não foi usada como denominador mensal nem foram calculadas taxas neste produto. Comparação percentual é descritiva e não causal.
 
-**N18 foi excluído do painel e de todas as totalizações** por divergência não resolvida com TabNet e inconsistências entre rotinas históricas. Os arquivos N18, inclusive a reextração de 213.789 linhas, continuam restritos à auditoria descrita na [nota SIH](LEIA-ME_SIH_N18_2024_2025.md). Este dataset não responde à efetividade do tratamento.
+**N18 foi excluído do painel e de todas as totalizações** porque o indicador territorial adotado é o TabNet N17–N19 e não foi demonstrada equivalência operacional com o recorte DBC N18. A reextração de 213.789 linhas é coerente como subconjunto nas células TabNet preenchidas; o CSV histórico de 368.917 é incompatível com essa releitura. A diferença histórica de 12 linhas não é reproduzível sem os artefatos da rotina antiga e não bloqueia este painel. Detalhes estão na [nota SIH](LEIA-ME_SIH_N18_2024_2025.md). Este dataset não responde à efetividade do tratamento.
 
 ## Síntese interpretativa
 
@@ -42,5 +42,5 @@ A comparação de períodos equivalentes e os limites de interpretação estão 
 1. Decisão clínica sobre população, comparador, tempo zero, desfecho e horizonte.
 2. Validação da semântica das datas, continuidade, estabilidade dos identificadores e completude dos desfechos APAC.
 3. Fonte que identifique elegíveis comparáveis e permita seguimento individual; cuidado conservador não está representado nas fontes locais identificadas.
-4. Manter a reconciliação SIH N18/TabNet como não resolvida; procurar, se disponíveis, artefatos antigos para explicar a diferença de 12 linhas.
+4. Manter N18 fora do painel enquanto não houver confirmação externa de unidade operacional comparável ao TabNet; recuperar artefatos antigos apenas para rastreabilidade da diferença de 12 linhas.
 5. Se não houver dados para comparador e seguimento, formalizar o escopo final como descritivo/associativo, sem alegação de efetividade.
