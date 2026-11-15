@@ -1,0 +1,30 @@
+{
+  "data_execucao": "2026-11-15T19:32:17.376392-03:00",
+  "data_editorial": "2026-11-15",
+  "base": "Dados/03_bases_analiticas/descritiva_territorial_2024_2025/painel_descritivo_uf_mes_2024_2025.csv",
+  "sha256_base": "5d8f671d31c7b83aa4e1e20c1221731e941957ed32e6f756c10a5e1a5e2d91a4",
+  "python": "3.12.13",
+  "pacotes": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "ipykernel": "7.4.0",
+    "nbclient": "0.11.0",
+    "nbformat": "5.11.1"
+  },
+  "linhas": 648,
+  "ufs": 27,
+  "competencias": 24,
+  "ausencias_sih": 1,
+  "janela_principal": "janeiro–outubro de 2024 e 2025",
+  "familia_holm": [
+    "sinais SIA",
+    "sinais SIH",
+    "Spearman das variacoes"
+  ],
+  "horizonte_validado_meses": 1,
+  "previsoes_validacao": 12
+}

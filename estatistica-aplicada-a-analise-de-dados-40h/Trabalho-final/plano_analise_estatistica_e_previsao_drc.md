@@ -46,7 +46,7 @@ Há uma ausência SIH: Roraima, dezembro de 2025. A base original não será alt
 
 `SIH_RR_dez_2025 = SIH_RR_dez_2024 × (total_RR_jan_out_2025 / total_RR_jan_out_2024)`.
 
-O método preserva o padrão de dezembro da própria UF e usa apenas a janela com maturidade documentada. Ele evita usar médias de outras UFs, que poderiam mascarar diferenças territoriais. A imputação será usada **somente em análise de sensibilidade**; as tabelas, gráficos e testes principais manterão a célula como ausente. A célula imputada não participará dos testes principais, pois a janela principal encerra em outubro.
+O método preserva o padrão de dezembro da própria UF e usa a janela janeiro–outubro adotada para comparação, cuja maturidade não foi confirmada externamente. Ele evita usar médias de outras UFs, que poderiam mascarar diferenças territoriais. A imputação será usada **somente em análise de sensibilidade**; as tabelas, gráficos e testes principais manterão a célula como ausente. A célula imputada não participará dos testes principais, pois a janela principal encerra em outubro.
 
 ## 6. Etapas da análise
 
@@ -124,7 +124,7 @@ A validação contém 12 previsões de **um mês à frente**, com histórico cre
 
 ## 8. Comunicação e limites
 
-Os gráficos usam azul para SIA, laranja para SIH, verde para resultados de apoio e vermelho para alertas de qualidade. Cada tabela e gráfico deve conter título, unidade de medida e período analisado.
+Os gráficos usam azul para SIA, laranja para SIH, verde para resultados de apoio e vermelho para alertas de qualidade. Cada tabela e gráfico deve conter título, unidade de medida e período analisado. O relatório final apresenta os períodos, unidades e fontes nas seções e legendas; as figuras indicam a cobertura SIH e o alcance do cenário SIA.
 
 Os resultados não estimam número de pacientes, acesso, efetividade ou causalidade. SIA e SIH não podem ser vinculados por pessoa. N18 permanece fora dos totais, e a previsão não deve ser usada para decisão operacional sem atualização e nova validação dos dados.
 
@@ -169,7 +169,7 @@ O [registro de limitações](Dados/04_documentacao_e_auditoria/PENDENCIAS_EXTERN
 
 ## 11. Revisão metodológica e interpretação consolidada — 15/11/2026
 
-As células de código do notebook 09 foram executadas em ordem com a base local, sem alterar os dados originais. A conferência reproduziu 648 chaves UF-mês, 27 UFs, 24 competências e uma ausência SIH (RR/dezembro de 2025). As figuras foram geradas em modo não interativo; esta rodada não constitui revisão visual dos gráficos.
+As células de código do notebook 09 foram executadas em ordem com a base local, sem alterar os dados originais. A conferência reproduziu 648 chaves UF-mês, 27 UFs, 24 competências e uma ausência SIH (RR/dezembro de 2025). A conferência inicial usou modo não interativo. O fechamento posterior executou o notebook em kernel Jupyter, salvou as saídas e inspecionou visualmente os seis PNGs; as evidências estão no [registro de fechamento](Dados/04_documentacao_e_auditoria/REGISTRO_FECHAMENTO_ESTATISTICO_2026-11-15.md).
 
 ### 11.1 Respostas às perguntas do estudo
 
@@ -196,11 +196,11 @@ A tendência linear é a referência selecionada para o cenário ilustrativo SIA
 
 - [x] Conferir cálculos e execução sequencial do notebook 09 contra o plano.
 - [x] Consolidar respostas às perguntas, conclusão e limites metodológicos no plano e na síntese do notebook.
-- [ ] Revisar visualmente tabelas e gráficos do notebook: legibilidade, período, unidade, legendas e alerta de cobertura SIH.
-- [ ] Consolidar a versão final do relatório acadêmico, incorporando os resultados do notebook 09, métodos, referências e limitações; conferir coerência com a síntese territorial existente, inclusive as famílias de testes distintas.
-- [ ] Conferir a entrega final após a revisão editorial: executar o notebook no kernel Jupyter, salvar as saídas e registrar versões das dependências e identificação da base usada.
+- [x] Revisar visualmente os gráficos e conferir conteúdo/estrutura das tabelas do notebook: legibilidade, período, unidade, legendas e alerta de cobertura SIH. O alcance da inspeção está descrito no registro de fechamento.
+- [x] Consolidar a versão final do relatório acadêmico, incorporando os resultados do notebook 09, métodos, referências e limitações; conferir coerência com a síntese territorial existente, inclusive as famílias de testes distintas.
+- [x] Conferir a entrega final após a revisão editorial: executar o notebook no kernel Jupyter, salvar as saídas e registrar versões das dependências e identificação da base usada.
 
-Esses itens editoriais e de entrega podem ser concluídos sem reabrir a auditoria APAC/N18. A conferência desta rodada executou o código em sequência no ambiente Python local; não substitui a execução final pelo kernel Jupyter nem a inspeção visual.
+Fechamento realizado sem reabrir a auditoria APAC/N18. O [relatório final](relatorio_final_analise_estatistica_drc_2024_2025.md) consolida métodos, resultados, seis figuras, conclusão e referências. O notebook foi executado em kernel Jupyter com 11 células de código sequenciais, sem erros; nove CSVs, seis PNGs, HTML e identificação SHA-256/ambiente estão nos [artefatos finais](Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/LEIA-ME.md). Consulte o registro para o alcance da revisão das tabelas e figuras.
 
 ### 12.2 Pesquisas futuras — fora dos critérios de conclusão
 
@@ -232,4 +232,14 @@ Não serão acrescentados testes apenas para procurar significância. Nenhuma im
 
 ### 13.3 Critério de estudo concluído
 
-O estudo estará concluído quando o relatório responder às perguntas da seção 13.1 com as tabelas e figuras existentes, explicar as limitações da seção 13.2 e permitir reproduzir os resultados com o painel local identificado. Restam a revisão visual/editorial e a execução final documentada da seção 12.1. A obtenção de insumos externos deixa de integrar o checklist de conclusão.
+O estudo estará concluído quando o relatório responder às perguntas da seção 13.1 com as tabelas e figuras existentes, explicar as limitações da seção 13.2 e permitir reproduzir os resultados com o painel local identificado. A revisão visual/editorial, o relatório e a execução final documentada da seção 12.1 foram concluídos; a base e os resultados permanecem limitados ao corte disponível. A obtenção de insumos externos deixa de integrar o checklist de conclusão.
+
+
+## 14. Entrega final e evidências
+
+- [Relatório acadêmico consolidado](relatorio_final_analise_estatistica_drc_2024_2025.md).
+- [Notebook 09](Notebook/09_ANALISE_ESTATISTICA_E_PREVISAO_DRC.ipynb), com saídas de execução Jupyter salvas.
+- [Artefatos e reprodução](Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/LEIA-ME.md).
+- [Registro de fechamento, ambiente e revisão](Dados/04_documentacao_e_auditoria/REGISTRO_FECHAMENTO_ESTATISTICO_2026-11-15.md).
+
+O estudo está encerrado para o escopo descritivo/ecológico definido, sem pendência de obtenção de fontes externas. O conjunto de resultados não sustenta ampliação clínica ou operacional das conclusões.

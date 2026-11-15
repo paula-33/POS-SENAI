@@ -1,6 +1,6 @@
 # Próximas etapas do estudo sobre doença renal crônica no SUS
 
-> **Decisão vigente — 15/11/2026:** os insumos externos não estão disponíveis. Concluir o estudo com SIA/SIH/IBGE locais, conforme as seções 12 e 13 do [plano estatístico](plano_analise_estatistica_e_previsao_drc.md). A janela comparativa é janeiro–outubro; APAC e N18 ficam excluídos; previsão SIA é avaliação retrospectiva com cenário ilustrativo. Os encaminhamentos DATASUS e clínicos descritos abaixo são histórico e possibilidades de pesquisa futura, sem bloquear a entrega. Restam revisão visual, consolidação do relatório e execução final documentada.
+> **Decisão vigente — 15/11/2026:** os insumos externos não estão disponíveis. Concluir o estudo com SIA/SIH/IBGE locais, conforme as seções 12 e 13 do [plano estatístico](plano_analise_estatistica_e_previsao_drc.md). A janela comparativa é janeiro–outubro; APAC e N18 ficam excluídos; previsão SIA é avaliação retrospectiva com cenário ilustrativo. Os encaminhamentos DATASUS e clínicos descritos abaixo são histórico e possibilidades de pesquisa futura, sem bloquear a entrega. Revisão visual, relatório consolidado e execução Jupyter documentada foram concluídos; consulte o [relatório final](relatorio_final_analise_estatistica_drc_2024_2025.md) e o registro de fechamento vinculado ao plano.
 
 
 ## Objetivo deste roteiro

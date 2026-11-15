@@ -22,3 +22,8 @@ Estes cadernos tratam análises ou auditorias independentes; não são pré-requ
 - **`08_AUDITORIA_APAC_e_proximas_etapas_SIH.ipynb` — Auditoria e planejamento:** documenta achados APAC e decisões para etapas futuras.
 
 Os prefixos indicam a ordem de leitura recomendada, não uma dependência automática entre notebooks. Consulte cada caderno e seu `LEIA-ME` para requisitos específicos.
+
+
+## Entrega estatística final
+
+O notebook 09 está executado e documentado para o painel local de 2024–2025. O [relatório consolidado](../relatorio_final_analise_estatistica_drc_2024_2025.md) apresenta resultados e figuras. Os [artefatos finais](../Dados/03_bases_analiticas/analise_estatistica_final_2024_2025/LEIA-ME.md) incluem ambiente, SHA-256, tabelas, PNGs e HTML. Novos insumos externos são pesquisa futura e não bloqueiam essa entrega.
