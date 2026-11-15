@@ -36,7 +36,7 @@ Os códigos abaixo foram identificados/selecionados na lista de procedimentos da
 - **Os períodos estão disponíveis na interface:** sim; a lista mostrava os meses de Jan/2024 a Dez/2025 e todos estavam selecionados.
 - **A consulta foi executada com sucesso:** sim; a tabela foi gerada pelo TabNet.
 - **Dados extraídos:** sim; 27 UFs e uma linha de total, com 24 meses de 2024–2025.
-- **Arquivo salvo:** `Dados/hemodialise_sia_sus_uf_mes_2024_2025.csv`.
+- **Arquivo salvo:** `Dados/02_derivados_preliminares/SIA/hemodialise_sia_sus_uf_mes_2024_2025.csv`.
 - **Formato:** CSV UTF-8, delimitado por ponto e vírgula. O arquivo contém as colunas mensais e `Total 2024-2025`, calculado a partir dos 24 meses selecionados.
 - **Status geral:** extração concluída; recomenda-se validar os dados e suas limitações antes da análise.
 - **Nota sobre a tabela retornada:** o TabNet acrescentou Oct/2023, Nov/2023 e Dez/2023 apesar do intervalo selecionado. Essas colunas foram excluídas do CSV, e o total foi recalculado apenas para 2024–2025.
@@ -65,3 +65,8 @@ A quantidade aprovada mede produção registrada no SIA/SUS; não equivale neces
 1. Validar os cabeçalhos, meses, estados, valores e totalizações do CSV.
 2. Considerar as revisões dos meses mais recentes antes de consolidar os resultados.
 3. Se necessário, obter denominadores populacionais para comparar taxas entre estados, em vez de apenas volumes absolutos.
+
+
+## Atualização de uso analítico (05/11/2026)
+
+O arquivo foi usado no notebook `Notebook/analise_descritiva_final_drc_sus.ipynb`, junto a SIH TabNet N17–N19 e IBGE, para formar um painel UF-mês descritivo. A transformação validou 27 UFs × 24 competências. A comparação comum janeiro–novembro entre 2024 e 2025 totalizou 16.733.358 e 17.310.415 quantidades aprovadas, respectivamente (+3,45%). Esse indicador continua sendo produção aprovada agregada, sem identificação de pacientes ou sessões por pessoa; não representa cobertura nem efetividade. Os produtos derivados e limitações estão descritos em `Dados/04_documentacao_e_auditoria/LEIA-ME_BASE_DESCRITIVA_TERRITORIAL_2024_2025.md`.

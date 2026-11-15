@@ -1,0 +1,6 @@
+﻿hipotese;metodo;n_ufs;efeito;estatistica;p_bruto;p_holm
+H1: direção da mudança SIA entre UFs (jan-out);teste binomial exato de sinais;27;"25 aumentos; 2 reduções; mediana da variação=3.30%";25.0;5.6475401e-06;2.82377e-05
+H2: direção da mudança SIH entre UFs (jan-out);teste binomial exato de sinais;27;"17 aumentos; 10 reduções; mediana da variação=2.38%";17.0;0.24778856;0.6336
+H3: SIA por população vs SIH por população (2024, jan-out);"Spearman; permutação Monte Carlo 9.999";27;rho=-0.090;-0.0897;0.6553;0.6553
+H3: SIA por população vs SIH por população (2025, jan-out);"Spearman; permutação Monte Carlo 9.999";27;rho=-0.288;-0.2875;0.1451;0.5804
+H4: mudança percentual SIA vs SIH entre UFs (jan-out);"Spearman; permutação Monte Carlo 9.999";27;rho=-0.247;-0.2473;0.2112;0.6336

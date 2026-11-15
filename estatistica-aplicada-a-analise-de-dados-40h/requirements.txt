@@ -1,0 +1,15 @@
+# Notebooks e kernel
+jupyterlab>=4.2,<5
+ipykernel>=6.29,<8
+dbc_reader==0.1.2
+dbf-reader==0.2.2
+
+# Manipulacao e analise estatistica
+numpy>=1.26,<3
+pandas>=2.2,<4
+scipy>=1.13,<2
+statsmodels>=0.14,<1
+
+# Visualizacao
+matplotlib>=3.8,<4
+seaborn>=0.13,<1

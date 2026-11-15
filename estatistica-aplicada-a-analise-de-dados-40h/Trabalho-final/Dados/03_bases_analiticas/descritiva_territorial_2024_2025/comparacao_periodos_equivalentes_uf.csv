@@ -1,0 +1,28 @@
+﻿cod_uf;sigla_uf;uf;regiao;periodo_comparado;sia_jan_nov_2024;sia_jan_nov_2025;sia_diferenca_absoluta;sia_variacao_percentual;sih_jan_nov_2024;sih_jan_nov_2025;sih_diferenca_absoluta;sih_variacao_percentual
+11;RO;Rondônia;Norte;janeiro-novembro;123405;130272;6867;5.56;1119;1022;-97;-8.67
+12;AC;Acre;Norte;janeiro-novembro;68082;77354;9272;13.62;393;351;-42;-10.69
+13;AM;Amazonas;Norte;janeiro-novembro;154167;152409;-1758;-1.14;2630;3262;632;24.03
+14;RR;Roraima;Norte;janeiro-novembro;40470;41770;1300;3.21;545;353;-192;-35.23
+15;PA;Pará;Norte;janeiro-novembro;472859;527207;54348;11.49;6096;6024;-72;-1.18
+16;AP;Amapá;Norte;janeiro-novembro;51278;50540;-738;-1.44;331;455;124;37.46
+17;TO;Tocantins;Norte;janeiro-novembro;77655;93565;15910;20.49;946;973;27;2.85
+21;MA;Maranhão;Nordeste;janeiro-novembro;490049;500659;10610;2.17;3318;3553;235;7.08
+22;PI;Piauí;Nordeste;janeiro-novembro;362354;372636;10282;2.84;1688;1456;-232;-13.74
+23;CE;Ceará;Nordeste;janeiro-novembro;877209;923521;46312;5.28;4614;4751;137;2.97
+24;RN;Rio Grande do Norte;Nordeste;janeiro-novembro;353167;355195;2028;0.57;1375;1308;-67;-4.87
+25;PB;Paraíba;Nordeste;janeiro-novembro;302723;303950;1227;0.41;2449;2318;-131;-5.35
+26;PE;Pernambuco;Nordeste;janeiro-novembro;942822;959321;16499;1.75;6083;6268;185;3.04
+27;AL;Alagoas;Nordeste;janeiro-novembro;287584;310705;23121;8.04;2089;2171;82;3.93
+28;SE;Sergipe;Nordeste;janeiro-novembro;162175;176341;14166;8.74;871;749;-122;-14.01
+29;BA;Bahia;Nordeste;janeiro-novembro;1267096;1348196;81100;6.4;9995;9889;-106;-1.06
+31;MG;Minas Gerais;Sudeste;janeiro-novembro;2079442;2159439;79997;3.85;18861;19035;174;0.92
+32;ES;Espírito Santo;Sudeste;janeiro-novembro;316863;328601;11738;3.7;3122;3458;336;10.76
+33;RJ;Rio de Janeiro;Sudeste;janeiro-novembro;1242412;1278811;36399;2.93;12429;12280;-149;-1.2
+35;SP;São Paulo;Sudeste;janeiro-novembro;3667572;3775662;108090;2.95;31030;32279;1249;4.03
+41;PR;Paraná;Sul;janeiro-novembro;844256;857230;12974;1.54;9341;9786;445;4.76
+42;SC;Santa Catarina;Sul;janeiro-novembro;477447;492222;14775;3.09;4911;5494;583;11.87
+43;RS;Rio Grande do Sul;Sul;janeiro-novembro;794660;799396;4736;0.6;9747;9267;-480;-4.92
+50;MS;Mato Grosso do Sul;Centro-Oeste;janeiro-novembro;258496;263152;4656;1.8;2116;1887;-229;-10.82
+51;MT;Mato Grosso;Centro-Oeste;janeiro-novembro;293738;302240;8502;2.89;2013;1926;-87;-4.32
+52;GO;Goiás;Centro-Oeste;janeiro-novembro;562795;570888;8093;1.44;3161;3598;437;13.82
+53;DF;Distrito Federal;Centro-Oeste;janeiro-novembro;162582;159133;-3449;-2.12;2533;2668;135;5.33

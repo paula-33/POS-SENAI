@@ -1,0 +1,2 @@
+76a8323a1b986c9ff4a6482dd246025d39012212e08f6e4ec361ceca8707fd9b  Trabalho-final/Dados/04_documentacao_e_auditoria/pacotes_dbc/dbc_reader-0.1.2-py3-none-any.whl
+ac443035d4bbaffd7be1f33b83cbc11cc45962362aa6349fbd6316c6c50cd043  Trabalho-final/Dados/04_documentacao_e_auditoria/pacotes_dbc/dbf_reader-0.2.2-py3-none-any.whl

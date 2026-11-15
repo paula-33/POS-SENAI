@@ -1,0 +1,55 @@
+﻿ano;data_referencia;regiao;cod_uf;sigla_uf;uf;populacao_estimada;fonte_arquivo;url_fonte
+2024;2024-07-01;Norte;11;RO;Rondônia;1746227;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Norte;12;AC;Acre;880631;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Norte;13;AM;Amazonas;4281209;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Norte;14;RR;Roraima;716793;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Norte;15;PA;Pará;8664306;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Norte;16;AP;Amapá;802837;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Norte;17;TO;Tocantins;1577342;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Nordeste;21;MA;Maranhão;7010960;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Nordeste;22;PI;Piauí;3375646;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Nordeste;23;CE;Ceará;9233656;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Nordeste;24;RN;Rio Grande do Norte;3446071;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Nordeste;25;PB;Paraíba;4145040;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Nordeste;26;PE;Pernambuco;9539029;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Nordeste;27;AL;Alagoas;3220104;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Nordeste;28;SE;Sergipe;2291077;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Nordeste;29;BA;Bahia;14850513;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Sudeste;31;MG;Minas Gerais;21322691;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Sudeste;32;ES;Espírito Santo;4102129;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Sudeste;33;RJ;Rio de Janeiro;17219679;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Sudeste;35;SP;São Paulo;45973194;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Sul;41;PR;Paraná;11824665;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Sul;42;SC;Santa Catarina;8058441;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Sul;43;RS;Rio Grande do Sul;11229915;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Centro-Oeste;50;MS;Mato Grosso do Sul;2901895;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Centro-Oeste;51;MT;Mato Grosso;3836399;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Centro-Oeste;52;GO;Goiás;7350483;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2024;2024-07-01;Centro-Oeste;53;DF;Distrito Federal;2982818;POP2024_20241230.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/POP2024_20241230.ods
+2025;2025-07-01;Norte;11;RO;Rondônia;1751950;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Norte;12;AC;Acre;884372;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Norte;13;AM;Amazonas;4321616;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Norte;14;RR;Roraima;738772;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Norte;15;PA;Pará;8711196;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Norte;16;AP;Amapá;806517;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Norte;17;TO;Tocantins;1586859;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Nordeste;21;MA;Maranhão;7018211;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Nordeste;22;PI;Piauí;3384547;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Nordeste;23;CE;Ceará;9268836;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Nordeste;24;RN;Rio Grande do Norte;3455236;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Nordeste;25;PB;Paraíba;4164468;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Nordeste;26;PE;Pernambuco;9562007;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Nordeste;27;AL;Alagoas;3220848;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Nordeste;28;SE;Sergipe;2299425;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Nordeste;29;BA;Bahia;14870907;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Sudeste;31;MG;Minas Gerais;21393441;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Sudeste;32;ES;Espírito Santo;4126854;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Sudeste;33;RJ;Rio de Janeiro;17223547;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Sudeste;35;SP;São Paulo;46081801;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Sul;41;PR;Paraná;11890517;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Sul;42;SC;Santa Catarina;8187029;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Sul;43;RS;Rio Grande do Sul;11233263;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Centro-Oeste;50;MS;Mato Grosso do Sul;2924631;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Centro-Oeste;51;MT;Mato Grosso;3893659;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Centro-Oeste;52;GO;Goiás;7423629;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods
+2025;2025-07-01;Centro-Oeste;53;DF;Distrito Federal;2996899;POP2025_20260828.ods;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260828.ods

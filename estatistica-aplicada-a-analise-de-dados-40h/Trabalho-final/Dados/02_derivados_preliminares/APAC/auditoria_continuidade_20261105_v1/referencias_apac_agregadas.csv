@@ -1,0 +1,17 @@
+﻿indicador;valor
+alvo_encontrado_no_recorte;70660
+alvo_nao_encontrado_no_recorte;10756
+ids_com_alguma_intersecao;67653
+ids_sem_intersecao_observada;1308
+inicio_filha_antes_fim_pai;41587
+inicio_filha_apos_fim_pai;35608
+inicio_filha_no_fim_pai;8
+ligacao_ambigua_por_multiplos_ids;5098
+par_com_id_unico_em_ambos;63895
+referencia_em_linha_tp1;44640
+referencia_em_linha_tp2;56739
+referencia_em_linha_tp3;129
+referencia_em_linha_tp4;1
+referencia_propria;40170
+referencias_unicas;81416
+refs_com_datas_validas_em_ambos;77203

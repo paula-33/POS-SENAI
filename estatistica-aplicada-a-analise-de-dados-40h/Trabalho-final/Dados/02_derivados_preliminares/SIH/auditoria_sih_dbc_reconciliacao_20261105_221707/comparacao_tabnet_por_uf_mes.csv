@@ -1,0 +1,4 @@
+﻿cenario;total_n18_nas_celulas_observadas;total_tabnet_n17_n19_observado;celulas_comparadas;n18_maior_que_tabnet;celulas_iguais;desvio_absoluto_total;desvio_absoluto_medio
+linhas N18 por UF do arquivo/mês;213789;309574;647;0;0;95785;148.045
+linhas N18 por UF local de MUNIC_MOV/mês;213789;309574;647;0;0;95785;148.045
+linhas N18 IDENT=1 por UF local/mês;213788;309574;647;0;0;95786;148.046

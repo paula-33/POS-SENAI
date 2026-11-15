@@ -1,0 +1,28 @@
+﻿cod_uf;sigla_uf;uf;regiao;periodo;sia_jan_out_2024;sia_jan_out_2025;sia_diferenca;sia_variacao_percentual;sih_jan_out_2024;sih_jan_out_2025;sih_diferenca;sih_variacao_percentual
+12;AC;Acre;Norte;janeiro-outubro;61514;70312;8798;14.3;349;331;-18;-5.16
+27;AL;Alagoas;Nordeste;janeiro-outubro;260692;283613;22921;8.79;1881;1998;117;6.22
+13;AM;Amazonas;Norte;janeiro-outubro;140224;139725;-499;-0.36;2419;3042;623;25.75
+16;AP;Amapá;Norte;janeiro-outubro;46444;46824;380;0.82;305;416;111;36.39
+29;BA;Bahia;Nordeste;janeiro-outubro;1148354;1227459;79105;6.89;9154;9252;98;1.07
+23;CE;Ceará;Nordeste;janeiro-outubro;795322;840756;45434;5.71;4199;4427;228;5.43
+53;DF;Distrito Federal;Centro-Oeste;janeiro-outubro;148598;144857;-3741;-2.52;2295;2475;180;7.84
+32;ES;Espírito Santo;Sudeste;janeiro-outubro;288010;300047;12037;4.18;2838;3197;359;12.65
+52;GO;Goiás;Centro-Oeste;janeiro-outubro;511858;520775;8917;1.74;2876;3331;455;15.82
+21;MA;Maranhão;Nordeste;janeiro-outubro;444432;456449;12017;2.7;2999;3302;303;10.1
+31;MG;Minas Gerais;Sudeste;janeiro-outubro;1887679;1966951;79272;4.2;17132;17539;407;2.38
+50;MS;Mato Grosso do Sul;Centro-Oeste;janeiro-outubro;234705;239667;4962;2.11;1923;1826;-97;-5.04
+51;MT;Mato Grosso;Centro-Oeste;janeiro-outubro;266998;275121;8123;3.04;1842;1794;-48;-2.61
+15;PA;Pará;Norte;janeiro-outubro;427643;479350;51707;12.09;5556;5630;74;1.33
+25;PB;Paraíba;Nordeste;janeiro-outubro;274161;277637;3476;1.27;2209;2135;-74;-3.35
+26;PE;Pernambuco;Nordeste;janeiro-outubro;855646;874380;18734;2.19;5528;5789;261;4.72
+22;PI;Piauí;Nordeste;janeiro-outubro;328918;339605;10687;3.25;1529;1349;-180;-11.77
+41;PR;Paraná;Sul;janeiro-outubro;768539;780421;11882;1.55;8459;9116;657;7.77
+33;RJ;Rio de Janeiro;Sudeste;janeiro-outubro;1128049;1165219;37170;3.3;11306;11533;227;2.01
+24;RN;Rio Grande do Norte;Nordeste;janeiro-outubro;321211;323193;1982;0.62;1267;1235;-32;-2.53
+11;RO;Rondônia;Norte;janeiro-outubro;111876;118086;6210;5.55;1026;973;-53;-5.17
+14;RR;Roraima;Norte;janeiro-outubro;36621;38012;1391;3.8;500;352;-148;-29.6
+43;RS;Rio Grande do Sul;Sul;janeiro-outubro;721695;728325;6630;0.92;8933;8611;-322;-3.6
+42;SC;Santa Catarina;Sul;janeiro-outubro;433387;448527;15140;3.49;4436;5127;691;15.58
+28;SE;Sergipe;Nordeste;janeiro-outubro;146796;160490;13694;9.33;793;726;-67;-8.45
+35;SP;São Paulo;Sudeste;janeiro-outubro;3328031;3440916;112885;3.39;28160;29588;1428;5.07
+17;TO;Tocantins;Norte;janeiro-outubro;69798;85498;15700;22.49;838;942;104;12.41

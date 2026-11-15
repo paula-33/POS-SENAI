@@ -1,0 +1,27 @@
+# Configuração e segredos locais
+.env
+.env.*
+!.env.example
+
+# Ambientes e ferramentas locais
+.venv/
+.venv-*/
+venv/
+env/
+.vscode/
+.ipynb_checkpoints/
+
+# Cache e arquivos compilados Python
+__pycache__/
+*.py[cod]
+
+# Dados brutos, arquivos compactados e cópias locais
+Trabalho-final/Dados/01_fontes_originais/
+Trabalho-final/Dados_backup_antes_reorganizacao_2026-10-25/
+Trabalho-final/Dados/02_derivados_preliminares/SIH/auditoria_sih_dbc_reconciliacao_20261026_132601/
+
+# Microdados e tabelas intermediárias volumosas
+Trabalho-final/Dados/02_derivados_preliminares/SIH/sih_n18_microdados_uf_ano_mes_2024_2025.csv
+Trabalho-final/Dados/02_derivados_preliminares/SIH/auditoria_sih_dbc_reconciliacao_20261105_221707/n18_reextraido_linhas.csv
+Trabalho-final/Dados/02_derivados_preliminares/SIH/auditoria_sih_dbc_reconciliacao_20261105_221707/divergencias_csv_vs_dbc.csv
+Trabalho-final/Dados/02_derivados_preliminares/SIA/hemodialise_sia_sus_uf_mes_2024_2025.csv

@@ -1,0 +1,29 @@
+﻿competencia;codigo_uf;sigla_uf;uf;regiao;cnes_hemodialise_registrada;cnes_hemodialise_sus_ambulatorial;cnes_hemodialise_sus_hospitalar;cnes_hemodialise_sus_qualquer_modalidade;cnes_hemodialise_sus_qualquer_modalidade_sem_motivo_desativacao;cnes_dialise_peritoneal_registrada;cnes_dialise_peritoneal_sus_ambulatorial;cnes_dialise_peritoneal_sus_hospitalar;cnes_dialise_peritoneal_sus_qualquer_modalidade;cnes_dialise_peritoneal_sus_qualquer_modalidade_sem_motivo_desativacao;cnes_com_motivo_desativacao;cnes_com_perfil_tb_dialise;cnes_perfil_tb_dialise_com_hemodialise_sus;cnes_perfil_tb_dialise_com_hemodialise_sus_sem_motivo_desativacao;maquinas_hemodialise_proprias_sus;maquinas_hemodialise_terceiros_sus;maquinas_hemodialise_proprias_sus_sem_motivo_desativacao;maquinas_hemodialise_terceiros_sus_sem_motivo_desativacao
+2024-12;11;RO;Rondônia;Norte;20;17;16;19;16;4;4;3;4;4;3;18;17;15;273;8;238;8
+2024-12;12;AC;Acre;Norte;9;7;4;9;9;7;6;3;7;7;0;6;6;6;186;34;186;34
+2024-12;13;AM;Amazonas;Norte;20;18;17;19;19;8;8;4;8;8;1;10;9;9;278;4;278;4
+2024-12;14;RR;Roraima;Norte;7;4;4;6;6;2;2;1;2;2;1;6;5;5;89;0;89;0
+2024-12;15;PA;Pará;Norte;46;37;26;42;41;16;15;11;15;15;2;41;38;37;942;82;942;82
+2024-12;16;AP;Amapá;Norte;3;3;2;3;3;0;0;0;0;0;0;3;3;3;104;4;104;4
+2024-12;17;TO;Tocantins;Norte;15;10;11;12;12;9;8;7;8;8;0;8;5;5;138;3;138;3
+2024-12;21;MA;Maranhão;Nordeste;31;26;12;27;26;11;10;3;10;10;1;28;24;23;776;51;759;50
+2024-12;22;PI;Piauí;Nordeste;30;23;13;26;24;15;13;2;13;13;3;24;20;19;326;97;306;96
+2024-12;23;CE;Ceará;Nordeste;58;39;30;52;49;16;15;4;15;15;4;37;34;33;1114;50;1099;50
+2024-12;24;RN;Rio Grande do Norte;Nordeste;27;18;11;23;22;13;10;3;12;11;3;19;16;15;523;49;500;48
+2024-12;25;PB;Paraíba;Nordeste;34;25;26;29;29;11;11;8;11;11;2;24;20;20;314;161;314;161
+2024-12;26;PE;Pernambuco;Nordeste;90;58;59;80;71;16;12;12;13;12;11;36;30;30;1349;39;1349;39
+2024-12;27;AL;Alagoas;Nordeste;20;16;12;16;15;11;10;9;10;10;1;17;13;12;339;27;331;27
+2024-12;28;SE;Sergipe;Nordeste;12;12;8;12;11;6;6;4;6;5;1;8;8;7;238;4;212;4
+2024-12;29;BA;Bahia;Nordeste;72;54;31;65;62;55;49;16;51;50;4;60;54;51;2038;151;1958;130
+2024-12;31;MG;Minas Gerais;Sudeste;183;121;118;154;149;108;88;59;94;93;8;127;105;101;3025;333;2961;332
+2024-12;32;ES;Espírito Santo;Sudeste;40;31;24;40;37;20;17;9;19;18;3;26;26;24;652;101;641;94
+2024-12;33;RJ;Rio de Janeiro;Sudeste;193;127;92;150;137;57;44;18;46;44;28;129;102;93;2509;539;2335;492
+2024-12;35;SP;São Paulo;Sudeste;363;224;191;277;244;170;150;99;157;147;44;280;209;183;7149;744;6545;699
+2024-12;41;PR;Paraná;Sul;130;80;87;113;107;62;49;31;56;53;9;58;51;49;1132;160;1087;158
+2024-12;42;SC;Santa Catarina;Sul;72;51;47;64;60;20;19;9;19;18;6;48;45;42;722;68;699;67
+2024-12;43;RS;Rio Grande do Sul;Sul;122;103;85;111;93;54;50;34;51;47;20;109;99;81;1758;237;1558;167
+2024-12;50;MS;Mato Grosso do Sul;Centro-Oeste;24;20;11;20;20;13;12;5;12;12;1;19;18;18;520;54;520;54
+2024-12;51;MT;Mato Grosso;Centro-Oeste;55;37;36;52;49;27;27;11;27;26;4;23;21;20;491;32;465;30
+2024-12;52;GO;Goiás;Centro-Oeste;66;50;35;61;60;34;33;17;34;34;2;42;38;38;1003;28;1003;28
+2024-12;53;DF;Distrito Federal;Centro-Oeste;46;22;14;27;24;17;14;6;14;13;6;43;25;22;579;43;437;43
+2024-12;BR;BR;Brasil;Brasil;1788;1233;1022;1509;1395;782;682;388;714;686;168;1249;1041;961;28567;3103;27054;2904
