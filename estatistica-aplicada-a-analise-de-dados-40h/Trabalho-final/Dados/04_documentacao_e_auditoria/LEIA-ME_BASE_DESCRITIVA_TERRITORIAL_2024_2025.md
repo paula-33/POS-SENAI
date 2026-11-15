@@ -2,7 +2,7 @@
 
 ## Objetivo e unidade
 
-Produto para descrição temporal e territorial da produção aprovada de hemodiálise e de internações por insuficiência renal. O painel tem 648 linhas (27 UFs × 24 meses); cada linha é uma UF-mês, não uma pessoa. Foi produzido pelo notebook [`analise_descritiva_final_drc_sus.ipynb`](../../Notebook/analise_descritiva_final_drc_sus.ipynb), a partir de fontes locais já existentes. Nenhum dado bruto ou CSV de origem foi sobrescrito ou baixado novamente.
+Produto para descrição temporal e territorial da produção aprovada de hemodiálise e de internações por insuficiência renal. O painel tem 648 linhas (27 UFs × 24 meses); cada linha é uma UF-mês, não uma pessoa. Foi produzido pelo notebook [`04_TRATAMENTO_E_ANALISE_base_final_DRC.ipynb`](../../Notebook/04_TRATAMENTO_E_ANALISE_base_final_DRC.ipynb), a partir de fontes locais já existentes. Nenhum dado bruto ou CSV de origem foi sobrescrito ou baixado novamente.
 
 ## Arquivos gerados
 

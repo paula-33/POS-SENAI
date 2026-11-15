@@ -1,0 +1,8 @@
+﻿cenario;total_n18_celulas_observadas;total_tabnet_n17_n19;celulas;n18_maior;iguais;desvio_abs_medio;desvio_abs_total
+N_AIH distinto em qualquer versão;213788;309574;647;0;0;148.05;95786
+primeiro snapshot N_AIH;213788;309574;647;0;0;148.05;95786
+último snapshot N_AIH;213788;309574;647;0;0;148.05;95786
+último snapshot IDENT=1;213787;309574;647;0;0;148.05;95787
+último snapshot IDENT diferente de 5;213787;309574;647;0;0;148.05;95787
+linhas N18 por UF local/mês;213789;309574;647;0;0;148.04;95785
+linhas N18 IDENT=1 por UF local/mês;213788;309574;647;0;0;148.05;95786

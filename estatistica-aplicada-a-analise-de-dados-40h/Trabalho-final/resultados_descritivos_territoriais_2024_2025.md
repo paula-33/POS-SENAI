@@ -2,7 +2,7 @@
 
 ## Escopo e fontes
 
-Esta síntese descreve a produção aprovada de procedimentos de hemodiálise no SIA/SUS, as internações registradas no TabNet SIH/SUS para N17–N19 e as estimativas anuais de população do IBGE. A unidade integrada é UF-mês (27 UFs × 24 meses; 648 combinações). Os dados foram tratados e validados no notebook [`analise_descritiva_final_drc_sus.ipynb`](Notebook/analise_descritiva_final_drc_sus.ipynb); esta síntese interpreta os arquivos gerados, sem reler nem alterar dados brutos.
+Esta síntese descreve a produção aprovada de procedimentos de hemodiálise no SIA/SUS, as internações registradas no TabNet SIH/SUS para N17–N19 e as estimativas anuais de população do IBGE. A unidade integrada é UF-mês (27 UFs × 24 meses; 648 combinações). Os dados foram tratados e validados no notebook [`04_TRATAMENTO_E_ANALISE_base_final_DRC.ipynb`](Notebook/04_TRATAMENTO_E_ANALISE_base_final_DRC.ipynb); esta síntese interpreta os arquivos gerados, sem reler nem alterar dados brutos.
 
 Os artefatos e critérios de transformação estão descritos na [nota da base descritiva](Dados/04_documentacao_e_auditoria/LEIA-ME_BASE_DESCRITIVA_TERRITORIAL_2024_2025.md). As tabelas utilizadas estão em [`Dados/03_bases_analiticas/descritiva_territorial_2024_2025/`](Dados/03_bases_analiticas/descritiva_territorial_2024_2025/).
 
