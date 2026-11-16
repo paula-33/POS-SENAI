@@ -1,8 +1,8 @@
 {
-  "data_execucao": "2026-11-15T20:33:07.653960-03:00",
+  "data_execucao": "2026-11-15T23:51:56.833443-03:00",
   "data_editorial": "2026-11-15",
-  "base": "Dados/03_bases_analiticas/descritiva_territorial_2024_2025/painel_descritivo_uf_mes_2024_2025.csv",
-  "sha256_base": "5d8f671d31c7b83aa4e1e20c1221731e941957ed32e6f756c10a5e1a5e2d91a4",
+  "base": "Dados/03_bases_analiticas/integracao_sia_sih_ibge_20261115/dados_integrados_uf_mes_2024_2025.csv",
+  "sha256_base": "fe86cb0ece3cf58539a4a0b8ea7211ecad5c24aca6c6af41d543ca9475718736",
   "python": "3.12.13",
   "pacotes": {
     "numpy": "2.5.4",
@@ -18,13 +18,23 @@
   "linhas": 648,
   "ufs": 27,
   "competencias": 24,
-  "ausencias_sih": 1,
+  "ausencias_sih": 0,
   "janela_principal": "janeiro–outubro de 2024 e 2025",
   "familia_holm": [
     "sinais SIA",
     "sinais SIH",
     "Spearman das variacoes"
   ],
-  "horizonte_validado_meses": 1,
-  "previsoes_validacao": 12
+  "status_modelagem": "tendencia linear SIH executada; extrapolacao nao sustentada pelos diagnosticos",
+  "fontes_sha256": {
+    "Dados/03_bases_analiticas/atualizacao_sih_sia_20261115/sia_uf_mes.csv": "44ef176af58f1e9dc85474ad88ca4ac8baa7dbc91ceee4da96db14c7805fdf1a",
+    "Dados/03_bases_analiticas/atualizacao_sih_sia_20261115/sih_uf_mes.csv": "aa9dfbb71c1e1d7186255cbf22584087dc5c600c68a672c15b9e9f955089e79b",
+    "Dados/03_bases_analiticas/atualizacao_sih_sia_20261115/series_mensais_brasil.csv": "7c885cc0591904e2f2eea02fa3f8f0a69c4821709f69decf20b49476b968083f",
+    "Dados/03_bases_analiticas/descritiva_territorial_2024_2025/painel_descritivo_uf_mes_2024_2025.csv": "5d8f671d31c7b83aa4e1e20c1221731e941957ed32e6f756c10a5e1a5e2d91a4"
+  },
+  "modulo_sha256": "e22ae18f75041e584d368b4c45c040030d2aa379d7f2fd0b2d9085a8fe0e49a7",
+  "serie_sia_ampliada_meses": 36,
+  "serie_sih_meses": 24,
+  "uso_testes": "exercicios condicionais; independência territorial não demonstrada",
+  "comparacao_regional": "descritiva, sem teste assintotico"
 }

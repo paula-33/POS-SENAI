@@ -1,0 +1,102 @@
+{
+  "extraido_em": "2026-11-15T22:18:54.803220-03:00",
+  "consultas": [
+    {
+      "sistema": "sih",
+      "ano_processamento": 2024,
+      "url_formulario": "http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/niuf.def",
+      "url_consulta": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/niuf.def",
+      "url_csv": "http://tabnet.datasus.gov.br/csv/sih_cnv_niuf221656179_0_58_223.csv",
+      "arquivo_csv": "sih_resultado_2024.csv",
+      "arquivo_html": "sih_resultado_2024.html",
+      "payload": "sih_payload_2024.txt"
+    },
+    {
+      "sistema": "sih",
+      "ano_processamento": 2025,
+      "url_formulario": "http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/niuf.def",
+      "url_consulta": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/niuf.def",
+      "url_csv": "http://tabnet.datasus.gov.br/csv/sih_cnv_niuf221621179_0_58_223.csv",
+      "arquivo_csv": "sih_resultado_2025.csv",
+      "arquivo_html": "sih_resultado_2025.html",
+      "payload": "sih_payload_2025.txt"
+    },
+    {
+      "sistema": "sih",
+      "ano_processamento": 2026,
+      "url_formulario": "http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/niuf.def",
+      "url_consulta": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/niuf.def",
+      "url_csv": "http://tabnet.datasus.gov.br/csv/sih_cnv_niuf221654179_0_58_223.csv",
+      "arquivo_csv": "sih_resultado_2026.csv",
+      "arquivo_html": "sih_resultado_2026.html",
+      "payload": "sih_payload_2026.txt"
+    },
+    {
+      "sistema": "sia",
+      "ano_processamento": 2023,
+      "url_formulario": "http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sia/cnv/qabr.def",
+      "url_consulta": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sia/cnv/qabr.def",
+      "url_csv": "http://tabnet.datasus.gov.br/csv/sia_cnv_qabr221625179_0_58_223.csv",
+      "arquivo_csv": "sia_resultado_2023.csv",
+      "arquivo_html": "sia_resultado_2023.html",
+      "payload": "sia_payload_2023.txt"
+    },
+    {
+      "sistema": "sia",
+      "ano_processamento": 2024,
+      "url_formulario": "http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sia/cnv/qabr.def",
+      "url_consulta": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sia/cnv/qabr.def",
+      "url_csv": "http://tabnet.datasus.gov.br/csv/sia_cnv_qabr221718179_0_58_223.csv",
+      "arquivo_csv": "sia_resultado_2024.csv",
+      "arquivo_html": "sia_resultado_2024.html",
+      "payload": "sia_payload_2024.txt"
+    },
+    {
+      "sistema": "sia",
+      "ano_processamento": 2025,
+      "url_formulario": "http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sia/cnv/qabr.def",
+      "url_consulta": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sia/cnv/qabr.def",
+      "url_csv": "http://tabnet.datasus.gov.br/csv/sia_cnv_qabr221719179_0_58_223.csv",
+      "arquivo_csv": "sia_resultado_2025.csv",
+      "arquivo_html": "sia_resultado_2025.html",
+      "payload": "sia_payload_2025.txt"
+    },
+    {
+      "sistema": "sia",
+      "ano_processamento": 2026,
+      "url_formulario": "http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sia/cnv/qabr.def",
+      "url_consulta": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sia/cnv/qabr.def",
+      "url_csv": "http://tabnet.datasus.gov.br/csv/sia_cnv_qabr221709179_0_58_223.csv",
+      "arquivo_csv": "sia_resultado_2026.csv",
+      "arquivo_html": "sia_resultado_2026.html",
+      "payload": "sia_payload_2026.txt"
+    }
+  ],
+  "sha256": {
+    "sia_consulta_parametros.json": "daaf1d752966f154a5030be6375c171f5162f9bb5a9f51f344973265fe574145",
+    "sia_form_atualizacao.html": "4d2c4207996d7c46fc0a96b50cb895055d8f42ed6b36494b91da862f02f8c2aa",
+    "sia_payload_2023.txt": "48bc5e238e4cbd2d4f28cf043567c8ad72841b2f7afc25522b2309946e28b59e",
+    "sia_payload_2024.txt": "0b8423a5a16299f16f22e38873afccb359123b1d581f8c61062e58b3c0448340",
+    "sia_payload_2025.txt": "567f04ce7a9d1b5451cd87b54506b7c13dfc306fd91b7971cc6c2faaef95f17e",
+    "sia_payload_2026.txt": "c614f04c8fb93054ea9102bfca831cc9170a2dff8129179662946c6b99dd3723",
+    "sia_resultado_2023.csv": "1d832559b0523a61333867bdbcf1608bb4f34732d7411046913adba6cf1d0ddc",
+    "sia_resultado_2023.html": "b2d26eba4c76852c091028cc89cb9f5ee86d07b77ff6276eb2dfb2e63c6882fe",
+    "sia_resultado_2024.csv": "37e5eded317dfd9a41e1bd78d57d4ce5c6989aab7dbda8af695ac2e23086dba4",
+    "sia_resultado_2024.html": "437e010ba9bf6e578656ac6382ab46bf982f760508c8cd735bec75826d1b3e24",
+    "sia_resultado_2025.csv": "eba8685d8c5fff75f950b0df7c22f2897ece826e4cfd8f6c96fe1970469f247b",
+    "sia_resultado_2025.html": "e1c8becdf94c63f24dd06f27ca27b027a262b0b4760891f60e5c87237bf364f1",
+    "sia_resultado_2026.csv": "9a287f1a558682114141f0915c132c2460dccf5a7ddcc2127ded643df8570a4e",
+    "sia_resultado_2026.html": "29dfb2a3dcdbf8a40752cbfe247d12296baf8f7408328c7287e01806e718ca63",
+    "sih_consulta_parametros.json": "b7f3c52d04004cae83038e2045d34bfcf052d280cb925cf98fadaebd934914e1",
+    "sih_form_atualizacao.html": "5484e50c123b83724be891efa9c5e12c1531963d6debf61088817b59d13d1421",
+    "sih_payload_2024.txt": "284088683a94d01aea80556a088cd396dcb8d87bede228c0bc83eed90d0012bb",
+    "sih_payload_2025.txt": "44784a6a1a4a59b9af81cab86bf69cdeffe30655f6c1769d3d756833c69a884c",
+    "sih_payload_2026.txt": "c2ca7d7026427b3497bc5c3218a6d96135cb950a6f2e691109ff357af7055d4f",
+    "sih_resultado_2024.csv": "b461761df394935352343daf0ac433bdc886134328a4d2d1c3a087b4383a4dbf",
+    "sih_resultado_2024.html": "1ab2b505e0842a30439282a51a64a0758e04bd1ff98a7ccf8f83c38c7f435d50",
+    "sih_resultado_2025.csv": "51cb4dcef567d673e87e7a56e70ec72775a860fb00f0f3d2b20a0e8b7b86241c",
+    "sih_resultado_2025.html": "d06299ee4052110c2a209b74ef35a5da371dcbd69181aac9c8506f14160c6cf6",
+    "sih_resultado_2026.csv": "cd0740a5e32222b0d808c0bcf8eb503bafe92b66ed1ea8455afa9411a41a57c7",
+    "sih_resultado_2026.html": "045eaea223e0056097484536660ae6c3ad7e042ed84608d808d8d4bb45cb75d7"
+  }
+}

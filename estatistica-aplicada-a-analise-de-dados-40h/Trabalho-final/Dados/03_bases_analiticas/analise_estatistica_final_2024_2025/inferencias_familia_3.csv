@@ -1,4 +1,4 @@
 análise;estatistica_ou_positivos;negativos;p_valor;p_valor_holm;conclusao_exploratoria_5pct
-Mudança direcional SIA;25.0;2.0;5.647540092468262e-06;1.6942620277404785e-05;Evidência contra H0
-Mudança direcional SIH;17.0;10.0;0.24778856337070465;0.4274518410493467;Sem evidência contra H0
-Correlação Spearman: variação SIA × SIH;-0.24725274725274726;;0.21372592052467335;0.4274518410493467;Sem evidência contra H0
+Mudança direcional SIA;25.0;2.0;5.647540092468262e-06;1.6942620277404785e-05;Sob referência condicional: rejeita H0
+Mudança direcional SIH;18.0;9.0;0.12207812070846558;0.24415624141693115;Sob referência condicional: não rejeita H0
+Correlação Spearman: variação SIA × SIH;-0.13553113553113552;;0.500287608462877;0.500287608462877;Sob referência condicional: não rejeita H0

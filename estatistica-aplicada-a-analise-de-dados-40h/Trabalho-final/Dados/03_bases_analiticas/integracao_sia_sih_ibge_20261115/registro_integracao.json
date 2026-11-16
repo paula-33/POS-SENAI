@@ -1,0 +1,19 @@
+{
+  "versao": "20261115",
+  "fontes_sha256": {
+    "Dados/03_bases_analiticas/atualizacao_sih_sia_20261115/sia_uf_mes.csv": "44ef176af58f1e9dc85474ad88ca4ac8baa7dbc91ceee4da96db14c7805fdf1a",
+    "Dados/03_bases_analiticas/atualizacao_sih_sia_20261115/sih_uf_mes.csv": "aa9dfbb71c1e1d7186255cbf22584087dc5c600c68a672c15b9e9f955089e79b",
+    "Dados/03_bases_analiticas/atualizacao_sih_sia_20261115/series_mensais_brasil.csv": "7c885cc0591904e2f2eea02fa3f8f0a69c4821709f69decf20b49476b968083f",
+    "Dados/03_bases_analiticas/descritiva_territorial_2024_2025/painel_descritivo_uf_mes_2024_2025.csv": "5d8f671d31c7b83aa4e1e20c1221731e941957ed32e6f756c10a5e1a5e2d91a4"
+  },
+  "sha256_painel": "fe86cb0ece3cf58539a4a0b8ea7211ecad5c24aca6c6af41d543ca9475718736",
+  "chave": [
+    "cod_uf",
+    "competencia"
+  ],
+  "cardinalidade": "648 UF-mes; 54 UF-ano",
+  "populacao": "uma referencia anual por UF, nao somar repeticoes mensais",
+  "sih_rr_2025_12": 14,
+  "imputacao": false,
+  "modulo_sha256": "e22ae18f75041e584d368b4c45c040030d2aa379d7f2fd0b2d9085a8fe0e49a7"
+}

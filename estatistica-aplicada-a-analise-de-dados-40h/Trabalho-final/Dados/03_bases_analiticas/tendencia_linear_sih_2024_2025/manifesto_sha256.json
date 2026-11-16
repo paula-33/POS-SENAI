@@ -1,0 +1,19 @@
+{
+  "01_serie_mensal.png": "e53f7e9628428ffd47aba1483af75260d5ab27175703fcba544a3ac5e8c77d37",
+  "02_ajuste_linear.png": "eaade63167996cad9916040085d8052d27d1e941d2b166951cc717f60c890b58",
+  "03_diagnosticos.png": "04baf40ed245d23e8302dea780e7f7eb22b03025179a243f8ddb5e243ac1a528",
+  "04_validacao_temporal.png": "5f222b95cc172d255a470b40b617cd4abd06a6bb1835a35664e151c61dd2e0f1",
+  "acf_residuos.csv": "79693ad4f3684c228cdcce540851dda19c323a6231af876525e682c0a90efd16",
+  "ajustes_residuos.csv": "c3c6e89369c825aa1bf26df519503249f310ed63f1460e38555e47fbe4ec1d57",
+  "auditoria_preparacao.csv": "84ef0062ce9273fd82d85e0c04914af938c1f95be6374e55c5fd5ad2e895e5c1",
+  "base_mensal_modelo.csv": "4e51675373197b778639ee1b684b0540af0db95a4f91c170635f63a02165153f",
+  "coeficientes.csv": "c1030af8516aed61db4a0fe2e83664f7f993072e6eae2dc58e3edef67c5b3563",
+  "metricas_validacao.csv": "6e7ba4acbd5aa2962884a85f68a0ab0371e1aa6a281e57c6812939efbda1ea19",
+  "registro_execucao.json": "042cd70123e93367d6d1c3e91675abb01f17f7daeefbeaee64dac8f0c2fcdbda",
+  "validacao_temporal.csv": "aa465e79d7e52cbcd77479cae2595887d0687f4eed67b9a42faa73437f41c13d",
+  "../../../../docs/Trabalho-final/Dados/03_bases_analiticas/tendencia_linear_sih_2024_2025/LEIA-ME.md": "556d7de6d5e3c72692281001cb85319aaf6156b63238c7e66c367c76d5f8e707",
+  "../../../../docs/Trabalho-final/relatorio_final_analise_estatistica_drc_2024_2025.md": "a3af25d093f7904b9f30720cb6b50f881c40da3693e548ef818d0bb6dc58f73c",
+  "../../../../docs/Trabalho-final/plano_analise_estatistica_e_previsao_drc.md": "a0c9193c27e3bd82feab3d4b1d409ef5d488292561f0ce572a1dc035b4a7bb2f",
+  "../../../../docs/Trabalho-final/revisao_final_metodologia_e_coerencia_2026-11-15.md": "32c42f02b779ef3564dc1698ef11e8a9011d05b3ff7b7265e74395f5cbba6322",
+  "../../../../docs/Trabalho-final/referencias_bibliograficas_doenca_renal_cronica_sus.md": "b8556da73cd1aca8873d32d85913e264e1927746f8a45c89d34c8c4d52f9a19c"
+}
